@@ -1565,6 +1565,7 @@ ul.post-comment li span{
 }
 
 .left-navbar{
+    position: fixed;
 	    border-right: solid 1px #e6e6e6;
 }
 
