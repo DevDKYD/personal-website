@@ -145,7 +145,7 @@ html{
 .links-to-floor {    
     margin:0 auto;
     height:100%;    
-	font-family: 'Lato', sans-serif;    
+	font-family: 'Lato', sans-serif;
 }
 
 .links-to-floor li {    
@@ -197,7 +197,7 @@ html{
     text-align: center;
     padding-top: 8px;
     font-size: 12px;
-	margin: auto;
+    margin: auto;
 }
 
 .social a:hover{
@@ -1576,9 +1576,9 @@ ul.post-comment li span{
     margin-right: 14px;
 }
 
-.left-navbar .social {
+/* .left-navbar .social {
    display:none;
-}
+} */
     
 .color-switcher{
     bottom: 0;
