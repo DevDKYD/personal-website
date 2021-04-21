@@ -124,7 +124,7 @@ html{
 
 .left-navbar{
     left: 0;
-    position: absolute;
+    position: fixed;
     height: 100%;
     background: #fff;
 	z-index:9;
@@ -1565,7 +1565,6 @@ ul.post-comment li span{
 }
 
 .left-navbar{
-      overflow: hidden;
 	    border-right: solid 1px #e6e6e6;
 }
 
