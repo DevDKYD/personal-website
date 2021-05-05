@@ -54,7 +54,8 @@ html{
 	background:#fff;
 	position:relative;
 	height:100%;
-	overflow:hidden;
+	overflow:scroll;
+  -webkit-overflow-scrolling: touch;
 	box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.09);
 	-moz-box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.09);
@@ -137,9 +138,9 @@ html{
     position:fixed;
     -webkit-transform-origin: left top;
     -webkit-transform:rotate(-90deg) translateX(-100%);
-	-moz-transform-origin: left top;
+	  -moz-transform-origin: left top;
     -moz-transform:rotate(-90deg) translateX(-100%);
-	-ms-transform-origin: left top;
+	  -ms-transform-origin: left top;
     -ms-transform:rotate(-90deg) translateX(-100%);
 }
 .links-to-floor {    
@@ -1562,6 +1563,10 @@ ul.post-comment li span{
   .floor {
     padding: 5px 33px 45px 80px;
     height: 100%;
+}
+
+.site{
+  overflow: hidden;
 }
 
 .left-navbar{
